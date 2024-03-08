@@ -2,14 +2,15 @@ import React from "react";
 import "./App.css";
 import { Header } from "./Header";
 import { Balance } from "./Balance";
+import { IncomeExpenses } from "./IncomeExpenses";
 
 function App() {
   return (
     <div>
       <Header />
       <div className="container">
-        <IncomeExpenses />
         <Balance />
+        <IncomeExpenses />
       </div>
     </div>
   );
